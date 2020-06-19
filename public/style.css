@@ -352,7 +352,8 @@ template {
 .strategy {
   display: flex;
   padding-bottom: 150px;
-  border-bottom: 1px solid rgba(33, 56, 66, 0.0955529); }
+  border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+  margin-bottom: 10px; }
   .strategy__suptext {
     margin-top: 244px;
     font-size: 14px;
@@ -390,11 +391,11 @@ template {
   .strategy__ceo {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 60px;
     margin-right: 76px;
-    margin-left: -20px; }
+    align-items: center; }
   .strategy__profile {
-    margin-top: 35px;
-    margin-left: -25px; }
+    margin-left: 30px; }
   .strategy__name {
     color: #4D533C;
     font-weight: 700;
@@ -404,6 +405,85 @@ template {
     color: #152934;
     font-size: 16px;
     margin-top: 12px; }
+
+.awesome {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: -55px; }
+  .awesome__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33; }
+  .awesome__text {
+    margin-left: 133px;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(33, 56, 66, 0.6); }
+
+.gallery {
+  display: flex;
+  margin-top: 165px; }
+  .gallery__image {
+    position: relative; }
+  .gallery__review {
+    position: absolute;
+    bottom: -65px;
+    right: -40px;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+    padding: 30px; }
+  .gallery__comment {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #4D533C; }
+  .gallery__author {
+    display: flex;
+    margin-top: 24px;
+    align-items: center; }
+  .gallery__person {
+    margin-left: 14px; }
+  .gallery__name {
+    font-size: 16px;
+    font-weight: 700; }
+  .gallery__position {
+    font-size: 14px;
+    margin-top: 8px; }
+  .gallery__main {
+    margin-top: 80px;
+    margin-left: 96px; }
+  .gallery__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #4D533C; }
+  .gallery__text {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 90px; }
+  .gallery__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #D4D6D4;
+    text-decoration: underline; }
+  .gallery--left {
+    justify-content: flex-end; }
+  .gallery__review--right {
+    position: absolute;
+    bottom: -65px;
+    left: -40px;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+    padding: 30px; }
+  .gallery__main--margin {
+    margin-left: 0; }
+  .gallery__image--margin {
+    margin-left: 110px; }
 
 *,
 *::before,

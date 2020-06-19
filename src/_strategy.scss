@@ -4,7 +4,8 @@ $lightblack: #4D533C;
     display: flex;
     padding-bottom: 150px;
     border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
-
+    margin-bottom: 10px;
+    
     &__suptext{
         margin-top: 244px;
         font-size: 14px;
@@ -58,13 +59,14 @@ $lightblack: #4D533C;
     &__ceo {
         display: flex;
         margin-top: 50px;
+        margin-bottom: 60px;
         margin-right: 76px;
-        margin-left: -20px;
+        align-items: center;
+
     }
 
     &__profile {
-        margin-top: 35px;
-        margin-left: -25px;
+        margin-left: 30px;
     }
 
     &__name {
@@ -78,5 +80,26 @@ $lightblack: #4D533C;
         color: #152934;
         font-size: 16px;
         margin-top: 12px;
+    }
+}
+
+.awesome {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: -55px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.33;
+    }
+
+    &__text {
+        margin-left: 133px;
+        font-size: 16px;
+        line-height: 1.62;
+        color: rgba(33, 56, 66, 0.6);
+
     }
 }
