@@ -349,6 +349,62 @@ template {
     .banner .source__image {
       margin-right: 66px; }
 
+.strategy {
+  display: flex;
+  padding-bottom: 150px;
+  border-bottom: 1px solid rgba(33, 56, 66, 0.0955529); }
+  .strategy__suptext {
+    margin-top: 244px;
+    font-size: 14px;
+    color: rgba(77, 83, 60, 0.9); }
+  .strategy__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.28;
+    color: #4D533C;
+    margin-top: 29px; }
+    .strategy__title .strategy--yellow {
+      background: rgba(255, 215, 35, 0.1); }
+  .strategy__text {
+    font-size: 16px;
+    line-height: 1.62;
+    margin-top: 35px;
+    margin-bottom: 42px; }
+  .strategy a {
+    color: #D4D6D4;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline; }
+  .strategy__side {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+    margin-left: 160px; }
+  .strategy__item {
+    margin-left: 40px; }
+  .strategy__comment {
+    margin-top: 244px;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #4D533C;
+    font-style: italic; }
+  .strategy__ceo {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 76px;
+    margin-left: -20px; }
+  .strategy__profile {
+    margin-top: 35px;
+    margin-left: -25px; }
+  .strategy__name {
+    color: #4D533C;
+    font-weight: 700;
+    font-size: 22px;
+    white-space: nowrap; }
+  .strategy__position {
+    color: #152934;
+    font-size: 16px;
+    margin-top: 12px; }
+
 *,
 *::before,
 *::after {
@@ -358,6 +414,7 @@ template {
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  background: #F2F2F2; }
 
 /*# sourceMappingURL=style.css.map */
