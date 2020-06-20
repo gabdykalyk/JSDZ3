@@ -550,11 +550,16 @@ template {
       font-weight: 700;
       line-height: 1.23;
       color: #4D533C;
-      white-space: nowrap; }
+      white-space: nowrap;
+      margin-bottom: 50px; }
     .footer .amazing__link {
       font-size: 16px;
       font-weight: 700;
-      color: #D4D6D4; }
+      color: #D4D6D4;
+      text-decoration: underline;
+      transition: color .2s linear; }
+      .footer .amazing__link:hover {
+        color: #FFD723; }
   .footer .contacts {
     font-size: 16px;
     display: flex;
