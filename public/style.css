@@ -485,6 +485,45 @@ template {
   .gallery__image--margin {
     margin-left: 110px; }
 
+.idea {
+  border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+  margin-top: 190px;
+  padding-top: 149px; }
+  .idea__header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.28;
+    color: #4D533C; }
+  .idea__box {
+    margin-top: 60px;
+    display: flex;
+    padding-bottom: 322px; }
+  .idea__item {
+    padding: 27px 31px 36px 30px;
+    min-height: 309px;
+    position: relative; }
+  .idea__item:not(:last-child) {
+    margin-right: 30px; }
+  .idea__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: #4D533C; }
+  .idea__text {
+    font-size: 14px;
+    line-height: 1.86;
+    color: rgba(33, 56, 66, 0.6);
+    margin-top: 20px; }
+  .idea__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #D4D6D4;
+    transition: color 0.2s linear;
+    position: absolute;
+    bottom: 36px; }
+    .idea__link:hover {
+      color: #FFD723; }
+
 *,
 *::before,
 *::after {

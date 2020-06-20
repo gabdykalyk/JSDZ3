@@ -1,0 +1,56 @@
+$lightblack: #4D533C;
+
+.idea {
+    border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+    margin-top: 190px;
+    padding-top: 149px;
+
+    &__header {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.28;
+        color: $lightblack;
+    }
+
+    &__box {
+        margin-top: 60px;
+        display: flex;
+        padding-bottom: 322px;
+    }
+
+    &__item {
+        padding: 27px 31px 36px 30px;
+        min-height: 309px;
+        position: relative;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.42;
+        color: $lightblack;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 1.86;
+        color: rgba(33, 56, 66, 0.6);
+        margin-top: 20px;
+    }
+
+    &__link {
+        font-size: 16px;
+        font-weight: 700;
+        color: #D4D6D4;
+        transition: color 0.2s linear;
+        position: absolute;
+        bottom: 36px;
+
+        &:hover {
+            color: #FFD723;;
+        }
+    }
+}
