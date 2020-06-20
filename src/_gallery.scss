@@ -71,6 +71,11 @@ $lightblack: #4D533C;
         font-weight: 700;
         color: #D4D6D4;
         text-decoration: underline;
+        transition: color 0.2s linear;
+
+        &:hover {
+            color: #FFD723;
+        }
     }
 
     &--left {

@@ -41,6 +41,11 @@
     a {
         color: #FFD723;
         font-weight: 700;
+        transition: color .2s linear;
+
+        &:hover {
+            color: #4D533C;
+        }
     }
 
     .source {

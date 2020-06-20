@@ -36,6 +36,11 @@ $lightblack: #4D533C;
         font-weight: 700;
         font-size: 16px;
         text-decoration: underline;
+        transition: color .2s linear;
+
+        &:hover {
+            color: #FFD723;
+        }
     }
 
     &__side {
